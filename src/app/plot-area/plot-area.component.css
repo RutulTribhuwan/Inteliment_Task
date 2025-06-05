@@ -1,0 +1,25 @@
+.outer-box {
+  background-color: #CBC3E3; /* outer light purple/lavender */
+  padding: 16px; /* smaller padding */
+  border-radius: 0; /* sharp edges */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 40px auto;
+  margin: 40px auto 40px 50px;  /* Top, Right, Bottom, Left – shifted right */
+}
+
+.inner-box {
+  background-color: #FAF5E4; /* light beige */
+  width: 780px;  /* wider than before */
+  height: 350px; /* same as sidebar height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  border-radius: 0; /* sharp edges */
+  box-sizing: border-box;
+}

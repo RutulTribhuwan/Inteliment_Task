@@ -1,0 +1,13 @@
+<div *ngIf="selectedChart === ''" class="outer-box no-chart-box">
+  <div class="inner-box">
+    No Charts selected
+  </div>
+</div>
+
+
+<app-pie-chart *ngIf="selectedChart === 'pie'"></app-pie-chart>
+<app-line-chart *ngIf="selectedChart === 'line'"></app-line-chart>
+<app-column-chart *ngIf="selectedChart === 'column'"></app-column-chart>
+<app-area-chart *ngIf="selectedChart === 'area'"></app-area-chart>
+<app-treemap-chart *ngIf="selectedChart === 'treemap'"></app-treemap-chart>
+<app-stacked-bar-chart *ngIf="selectedChart === 'stacked-bar'"></app-stacked-bar-chart>
