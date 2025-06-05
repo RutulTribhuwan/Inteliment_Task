@@ -2,6 +2,22 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
 
+
+#**Tech Stack Used:**-
+
+Chart Library: Highcharts & highcharts-angular
+
+Language: TypeScript
+
+Styling: CSS
+
+Routing: Angular Router
+
+Architecture: Component-based with shared service
+
+
+
+
 ## Development server
 
 To start a local development server, run:
@@ -35,6 +51,15 @@ ng build
 ```
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+
+
+
+
+
+
+
+
 
 ## Running unit tests
 
